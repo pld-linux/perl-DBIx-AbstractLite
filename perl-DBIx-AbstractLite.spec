@@ -52,7 +52,8 @@ interfejsu DBI, przy u¿yciu zwyk³ych metod obs³ugi SQL i wyra¿eñ DBI.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
