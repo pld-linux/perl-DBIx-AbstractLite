@@ -42,7 +42,7 @@ interfejsu DBI, przy u¿yciu zwyk³ych metod obs³ugi SQL i wyra¿eñ DBI.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{?_with_tests:%{__make} test}
