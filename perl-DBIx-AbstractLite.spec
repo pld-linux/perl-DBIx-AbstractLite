@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	DBIx
-%define	pnam	AbstractLite
+%define		pdir	DBIx
+%define		pnam	AbstractLite
 Summary:	DBIx::AbstractLite - lightweight DBI SQL abstraction in a hybrid interface
 Summary(pl):	DBIx::AbstractLite - lekka abstrakcja DBI SQL w hybrydowym interfejsie
 Name:		perl-DBIx-AbstractLite
