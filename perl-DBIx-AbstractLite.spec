@@ -1,6 +1,7 @@
 #
 # Conditional build:
-# _with_tests - perform "make test"
+%bcond_with	tests	# perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	AbstractLite
@@ -14,7 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a45ded7d5a4b80e54f6add8c161a3f42
 BuildRequires:	perl-devel >= 5.6
-%if %{?_with_tests:1}%{!?_with_tests:0}
+%if %{with tests}
 BuildRequires:	perl(Error::Dumb)
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -45,7 +46,7 @@ interfejsu DBI, przy u¿yciu zwyk³ych metod obs³ugi SQL i wyra¿eñ DBI.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{?_with_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
