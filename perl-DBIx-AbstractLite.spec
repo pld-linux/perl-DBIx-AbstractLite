@@ -8,7 +8,7 @@ Summary:	DBIx::AbstractLite - Lightweight DBI SQL abstraction in a hybrid interf
 Summary(pl):	DBIx::AbstractLite - lekka abstrakcja DBI SQL w hybrydowym interfejsie
 Name:		perl-DBIx-AbstractLite
 Version:	0.02
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
