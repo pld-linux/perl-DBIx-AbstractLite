@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	AbstractLite
-Summary:	DBIx::AbstractLite - Lightweight DBI SQL abstraction in a hybrid interface
+Summary:	DBIx::AbstractLite - lightweight DBI SQL abstraction in a hybrid interface
 Summary(pl):	DBIx::AbstractLite - lekka abstrakcja DBI SQL w hybrydowym interfejsie
 Name:		perl-DBIx-AbstractLite
 Version:	0.02
