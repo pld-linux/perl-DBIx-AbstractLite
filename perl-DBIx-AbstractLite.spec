@@ -6,7 +6,7 @@
 %define		pdir	DBIx
 %define		pnam	AbstractLite
 Summary:	DBIx::AbstractLite - lightweight DBI SQL abstraction in a hybrid interface
-Summary(pl):	DBIx::AbstractLite - lekka abstrakcja DBI SQL w hybrydowym interfejsie
+Summary(pl.UTF-8):   DBIx::AbstractLite - lekka abstrakcja DBI SQL w hybrydowym interfejsie
 Name:		perl-DBIx-AbstractLite
 Version:	0.02
 Release:	4
@@ -31,13 +31,13 @@ in the select method.  Unlike Abstract, AbstractLite is not 100%%
 abstract in that it still allows conventional access to the DBI
 interface, using plain SQL and the DBI statement handle methods.
 
-%description -l pl
-Ten modu≥ jest bazowany na DBIx::Abstract, ale jest o wiele prostszy.
-Takøe nie odbiega od interfejsu DBI tak bardzo jak DBIx::Abstract.
-G≥Ûwne podobieÒstwo pomiÍdzy DBIx::AbstractLite i DBIx::Abstract to
-metoda select. W przeciwieÒstwie do Abstract, AbstractLite nie jest w
-100%% abstrakcyjny w tym, øe nadal pozwala na konwencjonalny dostÍp do
-interfejsu DBI, przy uøyciu zwyk≥ych metod obs≥ugi SQL i wyraøeÒ DBI.
+%description -l pl.UTF-8
+Ten modu≈Ç jest bazowany na DBIx::Abstract, ale jest o wiele prostszy.
+Tak≈ºe nie odbiega od interfejsu DBI tak bardzo jak DBIx::Abstract.
+G≈Ç√≥wne podobie≈Ñstwo pomiƒôdzy DBIx::AbstractLite i DBIx::Abstract to
+metoda select. W przeciwie≈Ñstwie do Abstract, AbstractLite nie jest w
+100%% abstrakcyjny w tym, ≈ºe nadal pozwala na konwencjonalny dostƒôp do
+interfejsu DBI, przy u≈ºyciu zwyk≈Çych metod obs≈Çugi SQL i wyra≈ºe≈Ñ DBI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
