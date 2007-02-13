@@ -6,7 +6,7 @@
 %define		pdir	DBIx
 %define		pnam	AbstractLite
 Summary:	DBIx::AbstractLite - lightweight DBI SQL abstraction in a hybrid interface
-Summary(pl.UTF-8):   DBIx::AbstractLite - lekka abstrakcja DBI SQL w hybrydowym interfejsie
+Summary(pl.UTF-8):	DBIx::AbstractLite - lekka abstrakcja DBI SQL w hybrydowym interfejsie
 Name:		perl-DBIx-AbstractLite
 Version:	0.02
 Release:	4
